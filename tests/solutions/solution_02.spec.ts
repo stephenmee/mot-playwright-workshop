@@ -1,6 +1,6 @@
 // Use the login Page Object in a test
 import {Page, Locator, test, expect} from '@playwright/test';
-import {LoginPage} from './solution_01.spec'
+import {LoginPage} from './solution_01'
 
 test('login using the UI', async ({page}) => {
     const loginPage = new LoginPage(page);

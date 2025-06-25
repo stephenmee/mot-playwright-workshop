@@ -1,5 +1,5 @@
 import {expect} from "@playwright/test";
-import {test} from './solution_03_fixture.spec'
+import {test} from './solution_03_fixture'
 
 
 test('should add an item to the cart', async ({ loggedInPage }) => {

@@ -1,5 +1,5 @@
 import {test as base} from '@playwright/test';
-import { LoginPage } from './solution_01.spec';
+import { LoginPage } from './solution_01';
 
 // Extend basic test by providing a "loggedInPage" fixture.
 export const test = base.extend<{ loggedInPage: LoginPage }>({

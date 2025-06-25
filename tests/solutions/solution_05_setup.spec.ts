@@ -1,5 +1,5 @@
-import { test as setup, expect } from './solution_03_fixture.spec';
-import { LoginPage } from './solution_01.spec';
+import { test as setup, expect } from './solution_03_fixture';
+import { LoginPage } from './solution_01';
 import path from 'path';
 
 const authFile = path.join(__dirname, '../../playwright/.auth/user.json');
